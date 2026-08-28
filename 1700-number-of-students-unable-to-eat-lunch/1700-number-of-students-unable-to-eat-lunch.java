@@ -17,7 +17,7 @@ class Solution {
                 zeros--;
             }
             else{  // if sandwich is of type1
-                if(ones <= 0){  // if no student want a type1 sandwich 
+                if(ones == 0){  // if no student want a type1 sandwich 
                     return zeros;
                 }
                 ones--;
