@@ -11,7 +11,7 @@ class Solution {
         // for each sandwich in sandwiches
         for(int sandwich : sandwiches){
             if(sandwich == 0){  // if sandwich is of type0
-                if(zeros <= 0){ // if no student want a type0 sandwich
+                if(zeros == 0){ // if no student want a type0 sandwich
                     return ones;
                 }
                 zeros--;
