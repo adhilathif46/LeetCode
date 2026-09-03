@@ -7,7 +7,7 @@ class Solution {
         } else {
             cnt--;
         }
-        if (cnt == 1-1) {
+        if (cnt == 0) {
             res++;
         }
     }
