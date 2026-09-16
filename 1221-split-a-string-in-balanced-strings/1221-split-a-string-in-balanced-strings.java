@@ -8,7 +8,7 @@ class Solution {
             cnt--;
         }
         if (cnt == 0) {
-            res++;
+            res=res+1;
         }
     }
     return res;
